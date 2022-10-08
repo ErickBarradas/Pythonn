@@ -1,0 +1,13 @@
+peso = int(input("Digite  o peso: "))
+excesso = peso - 50
+multa = excesso * 4
+
+if peso > 50:
+	print(f"o excesso é de {excesso} e a multa de {multa}")
+else:
+	excesso = "0"
+	multa = "0"
+
+print (f"O excesso de peso foi de {excesso}kg, portanto, a multa é de R${multa}")
+
+#criação das variaveis com os valores e feito o calculo
