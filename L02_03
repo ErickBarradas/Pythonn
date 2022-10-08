@@ -1,0 +1,8 @@
+a=float(input('digite o primeiro valor: '))
+if a%1==0:
+    print("Ele é inteiro!")
+else:
+    print("Ele é decimal!")
+    
+
+#pedi um valor para o usuario e verifiquei se o resto da divisão é 0.
