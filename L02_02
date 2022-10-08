@@ -1,0 +1,8 @@
+a=int(input('digite o primeiro valor: '))
+if a%2==0:
+    print("Ele é par!")
+else:
+    print("Ele é impar!")
+    
+
+#pedi um valor para o usuario e verifiquei se o resto da divisão é 0.
