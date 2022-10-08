@@ -1,0 +1,10 @@
+genero = str(input("Insira Homem ou Mulher."))
+altura = float(input('Insira seu altura'))
+pesohomem = (altura * 72.7) -58
+pesomulher = (altura * 62.1)-44.7
+if genero == 'Homem':
+    print(f"Seu peso ideal é:{pesohomem}")
+else:
+    print(f"Seu peso ideal é:{pesomulher}")
+
+#utilizalção de if e else
