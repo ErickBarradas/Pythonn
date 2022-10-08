@@ -1,5 +1,5 @@
-genero = str(input("Insira Homem ou Mulher."))
-altura = float(input('Insira seu altura'))
+genero = str(input("Voce e homem ou mulher: "))
+altura = float(input('Insira sua altura: '))
 pesohomem = (altura * 72.7) -58
 pesomulher = (altura * 62.1)-44.7
 if genero == 'Homem':
