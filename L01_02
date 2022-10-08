@@ -1,0 +1,16 @@
+horasganha = float(input('Digite o quanto você ganhar por horas:'))
+horastrabalhadas = int(input('Digite quantas horas você trabalhou'))
+salariobruto = horastrabalhadas * horasganha
+IR = salariobruto * 0.11
+INSS = salariobruto * 0.08
+Sindicato = salariobruto * 0.05
+salarioliquido = salariobruto - IR - INSS - Sindicato
+
+
+print(f"Salario Bruto =R${salariobruto}")
+print(f"IR = R${IR}")
+print(f"INSS = R${INSS}")
+print(f"Sindicato = R${Sindicato}")
+print(f"Salario liquido = R${salarioliquido}")
+
+#Criadas variaveis com cada valor e feito o calculo
